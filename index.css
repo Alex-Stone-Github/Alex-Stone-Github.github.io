@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+#Main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.header-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-container .centered {
+    text-align: center;
+}
+nav {
+    width: 100vw;
+    height: 5vh;
+    background: red;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    margin: auto;
+    width: 75%;
+}
+main section {
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+}
+main section h1 {
+    font-size: 36px;
+}
+main section p {
+    font-size: 20;
+}
+main section .showoff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main section .showoff img {
+    width: 175px;
+    height: 175px;
+    margin: 20px;
+    border-radius: 10%;
+    box-shadow: lightgrey 2px 2px 2px 2px;
+}
+.half {
+    width: 49%;
+    min-width: 300px;
+    display: inline-block;
+}
+.intro {
+    text-align: center;
+    margin-top: 5px;
+}
+main section .link-display .game-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+.mover {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: red;
+    animation-name: mover-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    animation-timing-function: linear;
+}
+@keyframes mover-animation {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 300px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+main .projects .half a {
+    text-align: center;
+}
+main .projects .half a img {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+footer h1 {
+    text-align: center;
+}
+
+
+
+
+
